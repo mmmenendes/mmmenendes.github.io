@@ -1,0 +1,179 @@
+*{
+	padding:10px 4px;
+	margin:0 auto;
+	list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width:750px; /* largura fictícia */
+  margin:0 auto;
+}
+
+svg{
+  width:10%;
+}
+
+#count{
+  color: yellow;
+}
+
+
+
+@font-face {
+    font-family: 'quattrocento_sansbold';
+    src: url('fonts/quattrocentosans-bold-webfont.eot');
+    src: url('fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-bold-webfont.woff2') format('woff2'),
+         url('fonts/quattrocentosans-bold-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
+         url('fonts/quattrocentosans-bold-webfont.svg#quattrocento_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'quattrocento_sansbold_italic';
+    src: url('fonts/quattrocentosans-bolditalic-webfont.eot');
+    src: url('fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/quattrocentosans-bolditalic-webfont.svg#quattrocento_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quattrocento_sansitalic';
+    src: url('fonts/quattrocentosans-italic-webfont.eot');
+    src: url('fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-italic-webfont.woff2') format('woff2'),
+         url('fonts/quattrocentosans-italic-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
+         url('fonts/quattrocentosans-italic-webfont.svg#quattrocento_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quattrocento_sansregular';
+    src: url('fonts/quattrocentosans-regular-webfont.eot');
+    src: url('fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/quattrocentosans-regular-webfont.woff2') format('woff2'),
+         url('fonts/quattrocentosans-regular-webfont.woff') format('woff'),
+         url('fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
+         url('fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p{
+  font-family: 'quattrocento_sansregular';
+  src: url('fonts/quattrocentosans-regular-webfont.eot');
+}
+
+
+
+
+/*----------------- NOME -------------------------*/
+
+
+.mel {
+  font-size: 30px;
+  color: #e55353;
+  letter-spacing:3px;
+  text-align: center;
+}
+
+
+
+
+
+/*----------------- MENU -------------------------*/
+
+#menuHeader {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+
+#menuHeader ul {
+  width: 960px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#menuHeader ul li {
+  float: left;
+}
+
+#menuHeader ul li a {
+  padding: 15px 30px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+#menuHeader ul li a:hover {
+  color: #e55353;
+}
+
+.menu-fixo  {
+  position:fixed !important;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+
+
+
+/*----------------- APRESENTACAO -------------------------*/
+
+.apresentacao{
+  padding: 97px 73px 54px 213px;
+  text-align: justify;
+  width: 815px;
+  float: left;
+  margin:0 auto;
+}
+
+.picturemel{
+  width: 287px;
+  height: 295px;
+  margin-top:50px;
+}
+
+
+
+/*----------------- JOBS -------------------------*/
+
+.jobs p{
+  text-transform: uppercase;
+  color: #f67a83 ;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+}
+
+.jobs{
+    margin-bottom: 90px;
+}
+
+
+
+
+
+/*----------------- FOOTER -------------------------*/
+
+.contato p{
+  text-align: center;
+  text-transform: uppercase;
+  color: #f67a83 ;
+}
+
+.icon{
+  text-align: center;
+}
